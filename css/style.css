@@ -1,0 +1,510 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.feat-head a{  
+ color :#f15a22;
+ text-decoration: none;
+}
+html{
+   font-size: 20px;background-color: white;
+   color: #555;
+   font-family: 'lato',serif;
+   font-weight:200
+
+}
+.con{
+  max-width:1140px;
+  margin:0 auto;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)) , url('../Contents/1.jpg') ;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+
+
+}
+h1{
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 200%;
+  margin-bottom: 20px;
+
+
+
+}
+.main-h{
+       padding: 200px 0px 0px 50px;
+
+
+}
+.imh{
+      background-color: #f15a22;
+      text-decoration: none;
+      border-radius:200px;
+      padding: 5px 30px;
+      margin: 5px;
+      display: inline-block;
+      color: white;
+      font-weight: 100;
+      border: 2px solid #f15a22;
+
+}
+.bt{
+  border:2px solid #f15a22;
+  text-decoration: none;
+  border-radius:200px;
+  padding: 5px 30px;
+  margin: 5px;
+  display: inline-block;
+  color:#f15a22;
+  font-weight: 100;
+}
+.bt:hover{
+   background-color:#f15a22;
+   transition:background 1s,color 1s;
+   color: white;
+  text-decoration: none;
+
+}
+.imh:hover{
+   background-color:rgba(228, 120, 51, 1);
+   color: white;
+   text-decoration: none;
+
+}
+.logo{
+  width:130px;
+  height:auto;
+  padding-top: 20px;
+}
+ul{
+  float:right;
+}
+li{
+  float: left;
+  margin: 20px 20px 0px 0px;
+  font-size: 90%;
+
+  color: white;
+  list-style: none;
+}
+li a{
+
+  text-decoration: none;
+  color:white;
+  padding-bottom: 5px;
+}
+li a:hover{
+    border-bottom:2px solid #f15a22;
+    color: white;
+    text-decoration: none;
+
+
+}
+.feat-head{
+   font-weight: 100;
+   padding: 50px 0px 20px 0px;
+   text-align: center;
+   bor-sizing:border-box;
+
+}
+.feat-head h3{
+  padding-bottom: 5px;
+  font-weight: light;
+  font-size: 200%;
+  width : 500px;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+
+
+}
+.feat-head h3:hover{
+  border-bottom : 5px solid #f15a22 ;
+  box-sizing: border-box;
+
+  
+}
+.col h3{
+   font-size: 120%;
+   padding: 8px 15px;
+   font-weight: 150;
+}
+.line{
+  border-bottom: 2px solid orange;
+  margin: 0 auto;
+  width: 10%;
+  text-align: center;
+}
+.long-copy{
+  margin-top: 10px;
+  font-size:120%;
+  width:100%;
+  margin-left: 20px;
+  margin-right: 0px;;
+
+  
+}
+.long-copy p{
+  text-align: justify;
+
+}
+.description{
+  font-size: 90%;
+  text-align: justify;
+  font-weight: 70;
+}
+.col p{
+   letter-spacing: .5px;
+    font-size: 70%;
+    text-align: justify;
+}
+.col i{
+
+  font-size: 200%;
+      margin: 5px 100px;
+}
+.container-fluid img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.container-fluid {
+  padding: 25px 0;
+  margin: 0;}
+
+.col-3{
+  padding: 0;
+  margin: 0;
+}
+.meal{
+
+  margin: 0px;
+}
+.hiw{
+  padding: 30px 0px;
+  background-color: rgba(232, 236, 241, 1);
+
+}
+.hiw-head{
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 150%;
+  font-weight: 100;
+  border-bottom:2px #f15a22
+
+}
+.hei{
+  padding-bottom: 50px;
+  width: auto;
+
+}
+.stepimg{
+  margin-left: 0px;
+  padding: 0 20px 0 0;
+  transform-origin: top;
+  text-align: left;
+  transform: scale(.8);
+
+
+}
+.step{
+  padding-top: 100px;
+}
+
+
+.our-costumer{
+  background-image: url('../Contents/download.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.our-costumer h4{
+color: #f15a22;
+  text-align: center;
+   letter-spacing: 2px;
+   margin: 0 0 0 0;
+   padding: 40px 0 20px 0;
+   font-size: 170%;
+}
+span{
+  font-size: 150%;
+  margin: 0;
+  padding:0;
+  color:white;
+  font-weight: dark;
+}
+.mar{
+  margin:30px auto 50px auto;
+  font-size: 70%;
+
+}
+.mar img{
+  width: 20%;
+  border-radius: 100%;
+  display: inline-block;
+}
+.customers p{
+  color:white;
+}
+-----------------
+a {
+  color: #92badd;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+/* TABS */
+
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+
+
+
+/* FORM TYPOGRAPHY*/
+
+input[type=button], input[type=submit], input[type=reset]  {
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+  background-color: #39ace7;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+input[type=text] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder {
+  color: #cccccc;
+}
+
+
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #56baed;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after{
+  width: 100%;
+}
+
+
+
+/* OTHERS */
+
+*:focus {
+    outline: none;
+} 
+
+#icon {
+  width:60%;
+}
